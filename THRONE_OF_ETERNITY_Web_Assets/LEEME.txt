@@ -1,0 +1,20 @@
+THRONE OF ETERNITY — PAQUETE DE IMÁGENES PARA LA WEB
+
+Contenido:
+01_Hero_Inicio/
+- hero-principal-throne-of-eternity.png: imagen recomendada para el hero de la página de inicio.
+- hero-alternativo-throne-of-eternity.png: variante para banners, redes o secciones secundarias.
+
+02_Mundo_Mapas/
+- mapa-general-elyndor.png: mapa general del Continente del Ascenso y sus regiones.
+- mapa-tierras-del-alba-nareth.png: referencia regional de la zona inicial y el pueblo de Nareth.
+
+03_Razas_Civilizaciones/
+- referencia-visual-seis-razas.png: referencia de identidad visual y rasgos generales de las seis razas.
+- referencia-modelado-razas-civilizaciones.png: referencia de diseño, proporciones, equipo y civilizaciones adicionales.
+
+INSTRUCCIONES:
+- Mantener los archivos originales y sus proporciones; usar object-fit: cover solo en banners y object-fit: contain en mapas e infografías.
+- No usar las infografías como sustituto de contenido HTML accesible. Extraer sus datos y presentarlos también como texto.
+- Las imágenes son arte conceptual/referencias visuales; no presentarlas como capturas reales de gameplay.
+- La imagen principal recomendada es hero-principal-throne-of-eternity.png.

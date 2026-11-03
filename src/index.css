@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+/* Custom Dark Fantasy Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080A0E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #272118;
+  border: 1px solid #C6A15B40;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C6A15B80;
+}
+
+/* Typography Enhancements */
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.05em;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/* Dark Fantasy Aesthetics */
+.bg-elyndor-gradient {
+  background: radial-gradient(circle at 50% 20%, rgba(16, 24, 39, 0.8) 0%, rgba(8, 10, 14, 0.98) 70%, #080A0E 100%);
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #FFF1D0 0%, #E8C982 40%, #C6A15B 80%, #957030 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.violet-text-gradient {
+  background: linear-gradient(135deg, #D4B6FF 0%, #9C6FE6 50%, #7041B5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ornamental-card {
+  position: relative;
+  background: rgba(16, 24, 39, 0.65);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(198, 161, 91, 0.2);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.ornamental-card:hover {
+  border-color: rgba(232, 201, 130, 0.45);
+  box-shadow: 0 10px 35px -5px rgba(0, 0, 0, 0.7), 0 0 20px rgba(198, 161, 91, 0.15);
+  transform: translateY(-3px);
+}
+
+/* Corner Accents for AAA RPG Cards */
+.corner-trim {
+  position: relative;
+}
+
+.corner-trim::before,
+.corner-trim::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  pointer-events: none;
+  transition: border-color 0.3s ease;
+}
+
+.corner-trim::before {
+  top: -1px;
+  left: -1px;
+  border-top: 2px solid #C6A15B;
+  border-left: 2px solid #C6A15B;
+}
+
+.corner-trim::after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 2px solid #C6A15B;
+  border-right: 2px solid #C6A15B;
+}
+
+/* Cinematic Vignette */
+.cinematic-vignette {
+  background: radial-gradient(ellipse at center, transparent 40%, rgba(8, 10, 14, 0.85) 85%, #080A0E 100%);
+}
+
+/* Smooth Focus Rings */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid #E8C982;
+  outline-offset: 3px;
+}
